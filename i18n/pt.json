@@ -1,0 +1,97 @@
+{
+  "meta": {
+    "title": "Clênio Oliveira | Cartão Digital",
+    "description": "Cartão digital de Clênio A. Oliveira Moura — Programador, Analytics e Ciência de Dados. Projetos, redes e contato."
+  },
+  "profile": {
+    "name": "Clênio A. Oliveira Moura",
+    "role": "Programador | Analytics | Ciência de Dados",
+    "bio": "Desenvolvo soluções com dados e software. Aqui você encontra meus projetos, redes e formas de contato."
+  },
+  "ui": {
+    "langLabel": "Idioma",
+    "langPt": "PT",
+    "langEn": "EN",
+    "socialHeading": "Redes sociais",
+    "linksHeading": "Links",
+    "contactHeading": "Contato",
+    "qrHeading": "Compartilhe este cartão",
+    "qrHint": "Escaneie o QR Code para abrir esta página no celular.",
+    "primaryCta": "Falar no WhatsApp",
+    "footer": "Cartão digital · PT / EN"
+  },
+  "social": [
+    {
+      "id": "twitter",
+      "label": "Twitter / X",
+      "url": "https://twitter.com/clenioafonso/",
+      "icon": "img/twitter.png"
+    },
+    {
+      "id": "instagram",
+      "label": "Instagram",
+      "url": "https://www.instagram.com/afonso.clenio/",
+      "icon": "img/insta.svg"
+    },
+    {
+      "id": "linkedin",
+      "label": "LinkedIn",
+      "url": "https://www.linkedin.com/in/clenio-oliveira/",
+      "icon": "img/linkedin.svg"
+    },
+    {
+      "id": "github",
+      "label": "GitHub",
+      "url": "https://github.com/clenio77",
+      "icon": "img/github.svg"
+    },
+    {
+      "id": "whatsapp",
+      "label": "WhatsApp",
+      "url": "https://wa.me/5534998816952",
+      "icon": "img/whatsapp.png"
+    }
+  ],
+  "links": [
+    {
+      "id": "homepage",
+      "title": "Minha Home Page de Projetos",
+      "description": "Projetos que já construí até hoje.",
+      "url": "https://clenio77.github.io/",
+      "featured": true
+    },
+    {
+      "id": "github-profile",
+      "title": "Repositórios no GitHub",
+      "description": "Código aberto, experimentos e projetos em andamento.",
+      "url": "https://github.com/clenio77",
+      "featured": true
+    },
+    {
+      "id": "linkedin-profile",
+      "title": "Perfil no LinkedIn",
+      "description": "Experiência profissional e networking.",
+      "url": "https://www.linkedin.com/in/clenio-oliveira/",
+      "featured": false
+    },
+    {
+      "id": "telegram",
+      "title": "Canal no Telegram",
+      "description": "Conteúdos sobre tecnologia e programação.",
+      "url": "https://t.me/Clenio_moura",
+      "featured": false
+    }
+  ],
+  "contact": {
+    "whatsapp": {
+      "title": "WhatsApp",
+      "description": "Fale comigo diretamente no WhatsApp.",
+      "url": "https://wa.me/5534998816952?text=Ol%C3%A1%20Cl%C3%AAnio%2C%20vi%20seu%20cart%C3%A3o%20digital."
+    },
+    "telegram": {
+      "title": "Telegram",
+      "description": "Mensagem rápida pelo Telegram.",
+      "url": "https://t.me/Clenio_moura"
+    }
+  }
+}

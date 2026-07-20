@@ -1,0 +1,97 @@
+{
+  "meta": {
+    "title": "Clênio Oliveira | Digital Card",
+    "description": "Digital card of Clênio A. Oliveira Moura — Software Developer, Analytics and Data Science. Projects, social links and contact."
+  },
+  "profile": {
+    "name": "Clênio A. Oliveira Moura",
+    "role": "Software Developer | Analytics | Data Science",
+    "bio": "I build software and data solutions. Here you will find my projects, social profiles and ways to get in touch."
+  },
+  "ui": {
+    "langLabel": "Language",
+    "langPt": "PT",
+    "langEn": "EN",
+    "socialHeading": "Social",
+    "linksHeading": "Links",
+    "contactHeading": "Contact",
+    "qrHeading": "Share this card",
+    "qrHint": "Scan the QR Code to open this page on your phone.",
+    "primaryCta": "Chat on WhatsApp",
+    "footer": "Digital card · PT / EN"
+  },
+  "social": [
+    {
+      "id": "twitter",
+      "label": "Twitter / X",
+      "url": "https://twitter.com/clenioafonso/",
+      "icon": "img/twitter.png"
+    },
+    {
+      "id": "instagram",
+      "label": "Instagram",
+      "url": "https://www.instagram.com/afonso.clenio/",
+      "icon": "img/insta.svg"
+    },
+    {
+      "id": "linkedin",
+      "label": "LinkedIn",
+      "url": "https://www.linkedin.com/in/clenio-oliveira/",
+      "icon": "img/linkedin.svg"
+    },
+    {
+      "id": "github",
+      "label": "GitHub",
+      "url": "https://github.com/clenio77",
+      "icon": "img/github.svg"
+    },
+    {
+      "id": "whatsapp",
+      "label": "WhatsApp",
+      "url": "https://wa.me/5534998816952",
+      "icon": "img/whatsapp.png"
+    }
+  ],
+  "links": [
+    {
+      "id": "homepage",
+      "title": "Projects Home Page",
+      "description": "Projects I have built so far.",
+      "url": "https://clenio77.github.io/",
+      "featured": true
+    },
+    {
+      "id": "github-profile",
+      "title": "GitHub Repositories",
+      "description": "Open source work, experiments and ongoing projects.",
+      "url": "https://github.com/clenio77",
+      "featured": true
+    },
+    {
+      "id": "linkedin-profile",
+      "title": "LinkedIn Profile",
+      "description": "Professional experience and networking.",
+      "url": "https://www.linkedin.com/in/clenio-oliveira/",
+      "featured": false
+    },
+    {
+      "id": "telegram",
+      "title": "Telegram Channel",
+      "description": "Content about technology and programming.",
+      "url": "https://t.me/Clenio_moura",
+      "featured": false
+    }
+  ],
+  "contact": {
+    "whatsapp": {
+      "title": "WhatsApp",
+      "description": "Message me directly on WhatsApp.",
+      "url": "https://wa.me/5534998816952?text=Hi%20Clenio%2C%20I%20found%20your%20digital%20card."
+    },
+    "telegram": {
+      "title": "Telegram",
+      "description": "Quick message on Telegram.",
+      "url": "https://t.me/Clenio_moura"
+    }
+  }
+}
