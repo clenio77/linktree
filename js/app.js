@@ -9,6 +9,7 @@
   var socialList = document.getElementById("social-list");
   var linksList = document.getElementById("links-list");
   var contactList = document.getElementById("contact-list");
+  var trustList = document.getElementById("trust-list");
   var qrImage = document.getElementById("qr-image");
   var langButtons = document.querySelectorAll(".lang-btn");
 
@@ -72,6 +73,7 @@
   }
 
   function renderSocial(items) {
+    if (!socialList) return;
     socialList.innerHTML = "";
     items.forEach(function (item) {
       var li = document.createElement("li");
@@ -87,8 +89,8 @@
       var img = document.createElement("img");
       img.src = item.icon;
       img.alt = "";
-      img.width = 28;
-      img.height = 28;
+      img.width = 22;
+      img.height = 22;
       img.decoding = "async";
 
       a.appendChild(img);
@@ -97,7 +99,18 @@
     });
   }
 
+  function renderTrust(items) {
+    if (!trustList) return;
+    trustList.innerHTML = "";
+    (items || []).forEach(function (item) {
+      var li = document.createElement("li");
+      li.textContent = item.label;
+      trustList.appendChild(li);
+    });
+  }
+
   function renderLinkItems(target, items, options) {
+    if (!target) return;
     target.innerHTML = "";
     items.forEach(function (item) {
       var li = document.createElement("li");
@@ -174,15 +187,16 @@
   }
 
   function updateQr() {
+    if (!qrImage) return;
     var pageUrl = window.location.href.split("#")[0];
     var qrUrl =
-      "https://api.qrserver.com/v1/create-qr-code/?size=160x160&margin=8&data=" +
+      "https://api.qrserver.com/v1/create-qr-code/?size=148x148&margin=8&data=" +
       encodeURIComponent(pageUrl);
     qrImage.src = qrUrl;
     qrImage.alt =
       currentLang === "en"
-        ? "QR Code linking to this digital card"
-        : "QR Code que abre este cartão digital";
+        ? "QR Code linking to this corporate card"
+        : "QR Code que abre este cartão corporativo";
   }
 
   function applyLanguage(lang, options) {
@@ -195,6 +209,7 @@
         persistLanguage(lang);
         updateLangButtons(lang);
         updateStaticCopy(messages);
+        renderTrust(messages.trust || []);
         renderSocial(messages.social || []);
         renderLinkItems(linksList, messages.links || [], {
           featuredClass: true,
@@ -203,8 +218,8 @@
         renderLinkItems(
           contactList,
           [
-            Object.assign({ id: "whatsapp" }, messages.contact.whatsapp),
-            Object.assign({ id: "telegram" }, messages.contact.telegram)
+            Object.assign({ id: "linkedin" }, messages.contact.linkedin),
+            Object.assign({ id: "whatsapp" }, messages.contact.whatsapp)
           ],
           { prefix: "contact" }
         );
@@ -233,7 +248,14 @@
     var primaryCta = document.querySelector(".primary-cta");
     if (primaryCta) {
       primaryCta.addEventListener("click", function () {
-        trackOutbound("cta:whatsapp");
+        trackOutbound("cta:linkedin");
+      });
+    }
+
+    var secondaryCta = document.querySelector(".secondary-cta");
+    if (secondaryCta) {
+      secondaryCta.addEventListener("click", function () {
+        trackOutbound("cta:whatsapp-secondary");
       });
     }
 
