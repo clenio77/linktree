@@ -25,7 +25,7 @@ REQUIRED_FILES = [
     "img/whatsapp.png",
     "README.md",
 ]
-URL_RE = re.compile(r"^https?://", re.I)
+URL_RE = re.compile(r"^(https?://|mailto:)", re.I)
 errors: list[str] = []
 warnings: list[str] = []
 
