@@ -88,8 +88,8 @@
       var img = document.createElement("img");
       img.src = item.icon;
       img.alt = "";
-      img.width = 22;
-      img.height = 22;
+      img.width = 24;
+      img.height = 24;
       img.decoding = "async";
 
       a.appendChild(img);
