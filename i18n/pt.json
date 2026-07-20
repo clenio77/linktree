@@ -1,19 +1,19 @@
 {
   "meta": {
     "title": "Clênio Oliveira | Cartão Digital",
-    "description": "Cartão digital de Clênio A. Oliveira Moura — Programador, Analytics e Ciência de Dados. Projetos, redes e contato."
+    "description": "Cartão digital de Clênio A. Oliveira Moura — sistemas multiagente, LegalTech e produtos com IA. Projetos, redes e contato."
   },
   "profile": {
     "name": "Clênio A. Oliveira Moura",
-    "role": "Programador | Analytics | Ciência de Dados",
-    "bio": "Desenvolvo soluções com dados e software. Aqui você encontra meus projetos, redes e formas de contato."
+    "role": "Fundador Kermartin | Multi-Agentes | LegalTech",
+    "bio": "Transformo dados em ação. Desenvolvo sistemas multiagente, automação e produtos de IA — com foco em LegalTech e operação inteligente."
   },
   "ui": {
     "langLabel": "Idioma",
     "langPt": "PT",
     "langEn": "EN",
     "socialHeading": "Redes sociais",
-    "linksHeading": "Links",
+    "linksHeading": "Projetos em destaque",
     "contactHeading": "Contato",
     "qrHeading": "Compartilhe este cartão",
     "qrHint": "Escaneie o QR Code para abrir esta página no celular.",
@@ -54,31 +54,45 @@
   ],
   "links": [
     {
-      "id": "homepage",
-      "title": "Minha Home Page de Projetos",
-      "description": "Projetos que já construí até hoje.",
-      "url": "https://clenio77.github.io/",
+      "id": "genesys",
+      "title": "Genesys · Kermartin IA",
+      "description": "LegalTech: implantação, operação e governança do Kermartin IA.",
+      "url": "https://genesys-one.vercel.app",
       "featured": true
     },
     {
-      "id": "github-profile",
-      "title": "Repositórios no GitHub",
-      "description": "Código aberto, experimentos e projetos em andamento.",
-      "url": "https://github.com/clenio77",
+      "id": "contentos",
+      "title": "ContentOS",
+      "description": "Sistema editorial AI-native para produção de conteúdo técnico com agentes.",
+      "url": "https://github.com/clenio77/ContentOS",
       "featured": true
     },
     {
-      "id": "linkedin-profile",
-      "title": "Perfil no LinkedIn",
-      "description": "Experiência profissional e networking.",
-      "url": "https://www.linkedin.com/in/clenio-oliveira/",
+      "id": "fenix-pdf",
+      "title": "Fênix PDF",
+      "description": "Editor de PDF no navegador com OCR, anotações e extração jurídica por IA.",
+      "url": "https://fenix-pdf.vercel.app",
+      "featured": true
+    },
+    {
+      "id": "pscologo-ai",
+      "title": "Agenda Clinical (Psicólogo AI)",
+      "description": "SaaS para saúde mental com prontuário inteligente baseado em Gemini.",
+      "url": "https://pscologo-ai.vercel.app",
+      "featured": true
+    },
+    {
+      "id": "deep-trace",
+      "title": "DeepTrace",
+      "description": "Fact-checking de vídeos com IA para combater desinformação.",
+      "url": "https://deep-trace-nine.vercel.app",
       "featured": false
     },
     {
-      "id": "telegram",
-      "title": "Canal no Telegram",
-      "description": "Conteúdos sobre tecnologia e programação.",
-      "url": "https://t.me/Clenio_moura",
+      "id": "portfolio",
+      "title": "Portfólio pessoal",
+      "description": "Hub de projetos, ferramentas de IA e trajetória profissional.",
+      "url": "https://clenio-moura.vercel.app",
       "featured": false
     }
   ],
