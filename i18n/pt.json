@@ -1,38 +1,43 @@
 {
   "meta": {
-    "title": "Clênio Oliveira | Cartão Digital",
-    "description": "Cartão digital de Clênio A. Oliveira Moura — sistemas multiagente, LegalTech e produtos com IA. Projetos, redes e contato."
+    "title": "Genesys Tecnologia | Clênio Oliveira",
+    "description": "Genesys Tecnologia — implantação, operação e governança de IA jurídica (Kermartin). LegalTech com conformidade LGPD."
   },
   "profile": {
+    "company": "Genesys Tecnologia",
     "name": "Clênio A. Oliveira Moura",
-    "role": "Fundador Kermartin | Multi-Agentes | LegalTech",
-    "bio": "Transformo dados em ação. Desenvolvo sistemas multiagente, automação e produtos de IA — com foco em LegalTech e operação inteligente."
+    "role": "Fundador · LegalTech & Sistemas de IA",
+    "bio": "Implantamos e operamos IA jurídica com governança, conformidade LGPD e foco em resultados para escritórios e departamentos jurídicos."
   },
   "ui": {
     "langLabel": "Idioma",
     "langPt": "PT",
     "langEn": "EN",
-    "socialHeading": "Redes sociais",
-    "linksHeading": "Projetos em destaque",
-    "contactHeading": "Contato",
-    "qrHeading": "Compartilhe este cartão",
-    "qrHint": "Escaneie o QR Code para abrir esta página no celular.",
-    "primaryCta": "Falar no WhatsApp",
-    "footer": "Cartão digital · PT / EN"
+    "trustHeading": "Sinais de confiança",
+    "linksHeading": "Recursos",
+    "contactHeading": "Contato executivo",
+    "socialHeading": "Presença profissional",
+    "qrHeading": "Compartilhar cartão",
+    "qrHint": "Escaneie para abrir este cartão corporativo no celular.",
+    "primaryCta": "Falar no LinkedIn",
+    "secondaryCta": "WhatsApp",
+    "footer": "Genesys Tecnologia · Cartão corporativo · PT / EN"
   },
+  "trust": [
+    {
+      "id": "lgpd",
+      "label": "Governança e LGPD"
+    },
+    {
+      "id": "impl",
+      "label": "Implantação em 30–90 dias"
+    },
+    {
+      "id": "integrations",
+      "label": "Integrações: PJe, e-SAJ, CRM"
+    }
+  ],
   "social": [
-    {
-      "id": "twitter",
-      "label": "Twitter / X",
-      "url": "https://twitter.com/clenioafonso/",
-      "icon": "img/twitter.png"
-    },
-    {
-      "id": "instagram",
-      "label": "Instagram",
-      "url": "https://www.instagram.com/afonso.clenio/",
-      "icon": "img/insta.svg"
-    },
     {
       "id": "linkedin",
       "label": "LinkedIn",
@@ -44,68 +49,34 @@
       "label": "GitHub",
       "url": "https://github.com/clenio77",
       "icon": "img/github.svg"
-    },
-    {
-      "id": "whatsapp",
-      "label": "WhatsApp",
-      "url": "https://wa.me/5534998816952",
-      "icon": "img/whatsapp.png"
     }
   ],
   "links": [
     {
       "id": "genesys",
       "title": "Genesys · Kermartin IA",
-      "description": "LegalTech: implantação, operação e governança do Kermartin IA.",
+      "description": "Site institucional: implantação, operação e governança da plataforma de IA jurídica.",
       "url": "https://genesys-one.vercel.app",
       "featured": true
     },
     {
-      "id": "contentos",
-      "title": "ContentOS",
-      "description": "Sistema editorial AI-native para produção de conteúdo técnico com agentes.",
-      "url": "https://github.com/clenio77/ContentOS",
-      "featured": true
-    },
-    {
-      "id": "fenix-pdf",
-      "title": "Fênix PDF",
-      "description": "Editor de PDF no navegador com OCR, anotações e extração jurídica por IA.",
-      "url": "https://fenix-pdf.vercel.app",
-      "featured": true
-    },
-    {
-      "id": "pscologo-ai",
-      "title": "Agenda Clinical (Psicólogo AI)",
-      "description": "SaaS para saúde mental com prontuário inteligente baseado em Gemini.",
-      "url": "https://pscologo-ai.vercel.app",
-      "featured": true
-    },
-    {
-      "id": "deep-trace",
-      "title": "DeepTrace",
-      "description": "Fact-checking de vídeos com IA para combater desinformação.",
-      "url": "https://deep-trace-nine.vercel.app",
-      "featured": false
-    },
-    {
       "id": "portfolio",
-      "title": "Portfólio pessoal",
-      "description": "Hub de projetos, ferramentas de IA e trajetória profissional.",
+      "title": "Trabalho selecionado",
+      "description": "Cases e produtos adicionais fora do escopo comercial Genesys.",
       "url": "https://clenio-moura.vercel.app",
       "featured": false
     }
   ],
   "contact": {
+    "linkedin": {
+      "title": "LinkedIn",
+      "description": "Canal principal para conversas comerciais e parcerias.",
+      "url": "https://www.linkedin.com/in/clenio-oliveira/"
+    },
     "whatsapp": {
       "title": "WhatsApp",
-      "description": "Fale comigo diretamente no WhatsApp.",
-      "url": "https://wa.me/5534998816952?text=Ol%C3%A1%20Cl%C3%AAnio%2C%20vi%20seu%20cart%C3%A3o%20digital."
-    },
-    "telegram": {
-      "title": "Telegram",
-      "description": "Mensagem rápida pelo Telegram.",
-      "url": "https://t.me/Clenio_moura"
+      "description": "Contato rápido, quando preferir mensagem direta.",
+      "url": "https://wa.me/5534998816952?text=Ol%C3%A1%20Cl%C3%AAnio%2C%20vim%20pelo%20cart%C3%A3o%20corporativo%20da%20Genesys."
     }
   }
 }
