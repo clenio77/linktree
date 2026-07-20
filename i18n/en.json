@@ -60,13 +60,6 @@
       "featured": true
     },
     {
-      "id": "linkedin",
-      "title": "LinkedIn",
-      "description": "Primary channel for business conversations, publications and networking.",
-      "url": "https://www.linkedin.com/in/clenio-oliveira/",
-      "featured": true
-    },
-    {
       "id": "portfolio",
       "title": "Selected work",
       "description": "Additional cases and products beyond the Genesys commercial scope.",

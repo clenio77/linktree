@@ -8,7 +8,6 @@
 
   var socialList = document.getElementById("social-list");
   var linksList = document.getElementById("links-list");
-  var contactList = document.getElementById("contact-list");
   var trustList = document.getElementById("trust-list");
   var qrImage = document.getElementById("qr-image");
   var langButtons = document.querySelectorAll(".lang-btn");
@@ -215,14 +214,6 @@
           featuredClass: true,
           prefix: "link"
         });
-        renderLinkItems(
-          contactList,
-          [
-            Object.assign({ id: "linkedin" }, messages.contact.linkedin),
-            Object.assign({ id: "whatsapp" }, messages.contact.whatsapp)
-          ],
-          { prefix: "contact" }
-        );
         updateQr();
         if (!silent) trackLanguage(lang);
       })
