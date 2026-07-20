@@ -20,7 +20,8 @@
     "qrHeading": "Compartilhar cartão",
     "qrHint": "Escaneie para abrir este cartão corporativo no celular.",
     "primaryCta": "Falar no LinkedIn",
-    "secondaryCta": "WhatsApp",
+    "secondaryCta": "clenio@kermartin.ia.br",
+    "tertiaryCta": "WhatsApp",
     "footer": "Genesys Tecnologia · Cartão corporativo · PT / EN"
   },
   "trust": [
@@ -72,6 +73,11 @@
       "title": "LinkedIn",
       "description": "Canal principal para conversas comerciais e parcerias.",
       "url": "https://www.linkedin.com/in/clenio-oliveira/"
+    },
+    "email": {
+      "title": "E-mail",
+      "description": "Contato corporativo Kermartin.",
+      "url": "mailto:clenio@kermartin.ia.br"
     },
     "whatsapp": {
       "title": "WhatsApp",

@@ -246,6 +246,13 @@
     var secondaryCta = document.querySelector(".secondary-cta");
     if (secondaryCta) {
       secondaryCta.addEventListener("click", function () {
+        trackOutbound("cta:email");
+      });
+    }
+
+    var tertiaryCta = document.querySelector(".tertiary-cta");
+    if (tertiaryCta) {
+      tertiaryCta.addEventListener("click", function () {
         trackOutbound("cta:whatsapp-secondary");
       });
     }

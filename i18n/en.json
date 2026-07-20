@@ -20,7 +20,8 @@
     "qrHeading": "Share this card",
     "qrHint": "Scan to open this corporate card on your phone.",
     "primaryCta": "Connect on LinkedIn",
-    "secondaryCta": "WhatsApp",
+    "secondaryCta": "clenio@kermartin.ia.br",
+    "tertiaryCta": "WhatsApp",
     "footer": "Genesys Tecnologia · Corporate card · PT / EN"
   },
   "trust": [
@@ -72,6 +73,11 @@
       "title": "LinkedIn",
       "description": "Primary channel for business conversations and partnerships.",
       "url": "https://www.linkedin.com/in/clenio-oliveira/"
+    },
+    "email": {
+      "title": "Email",
+      "description": "Kermartin corporate contact.",
+      "url": "mailto:clenio@kermartin.ia.br"
     },
     "whatsapp": {
       "title": "WhatsApp",
