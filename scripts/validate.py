@@ -112,11 +112,12 @@ def check_html() -> None:
         'lang="pt"',
         'id="social-list"',
         'id="links-list"',
-        'id="contact-list"',
+        'id="trust-list"',
         'data-lang="pt"',
         'data-lang="en"',
         "js/app.js",
         'meta name="description"',
+        'profile.company',
     ]:
         if needle not in html:
             fail(f"index.html missing expected marker: {needle}")
